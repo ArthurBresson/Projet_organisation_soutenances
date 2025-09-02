@@ -1,0 +1,87 @@
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin-top: 80px;
+    width: 60%;
+}
+
+.jumbotron {
+  background-color:plum;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75); 
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link:hover,
+.navbar.navbar-dark .navbar-nav .nav-link:focus {
+    color: #B8860B; 
+}
+
+
+.dropdown-menu {
+    background-color: #343a40; 
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.175); 
+}
+
+.dropdown-item {
+    color: #f8f9fa; 
+    background-color: #343a40;
+}
+
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #DAA520; 
+    color: #ffffff; 
+}
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #DAA520; 
+    color: #ffffff; 
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.fw-bold{
+    color: #DAA520;
+}
+
+h1{
+    color: #DAA520;
+}
+
+label{
+    color: #DAA520;
+}
+
+.table th,
+.table td {
+    color: #DAA520 !important; /* Couleur du texte par défaut */
+} 
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(33, 37, 41, 0.9); 
+}
+
+.table.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(33, 37, 41, 0.7); 
+}
+.btn-jaune {
+    background-color: #DAA520; /* Jaune foncé pour le fond */
+    border-color: #DAA520;     /* Bordure de la même couleur */
+    color: #343a40;            /* Texte sombre pour un bon contraste */
+}
+.btn-jaune:hover {
+    background-color: #B8860B; /* Jaune un peu plus foncé au survol */
+    border-color: #B8860B;
+    color: #ffffff; /* Texte blanc au survol */
+}
